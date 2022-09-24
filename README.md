@@ -26,7 +26,7 @@ This is a simple example of how to use zkSync 2.0 with [Hardhat](https://v2-docs
 
   - ERC20 Token
     - Fill in the values for your token in `deploy/erc20.ts`
-    - Run
+    - Deploy the contract
       ```bash
       npm run deploy-erc20
       ```
