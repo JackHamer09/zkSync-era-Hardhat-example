@@ -21,14 +21,14 @@ This is a simple example of how to use zkSync 2.0 with [Hardhat](https://v2-docs
 2. Deploy contracts:
   - Greeter
     ```bash
-    npm run deploy-greeter
+    npm run deploy greeter.ts
     ```
 
   - ERC20 Token
     - Fill in the values for your token in `deploy/erc20.ts`
     - Deploy the contract
       ```bash
-      npm run deploy-erc20
+      npm run deploy erc20.ts
       ```
 
 ---
