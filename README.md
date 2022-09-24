@@ -1,4 +1,4 @@
-# zkSync 2.0 Hardhat
+# zkSync 2.0 Hardhat Example
 This is a simple example of how to use zkSync 2.0 with [Hardhat](https://v2-docs.zksync.io/api/hardhat/getting-started.html). It will help you to deploy your first zkSync smart contracts and interact with them.
 
 
