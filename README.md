@@ -38,7 +38,7 @@ This is a simple example of how to use zkSync 2.0 with [Hardhat](https://v2-docs
 After the deployment, the link for the contract verification, contract address, constructor arguments and other information will be printed in the console. You can use this information to verify the contract on [zkSync 2.0 Block Explorer](https://scan-v2.zksync.dev/).
 
 
-## Useful links
+### Useful links
 - [zkSync 2.0 Hardhat Documentation](https://v2-docs.zksync.io/api/hardhat/getting-started.html)
 - [zkSync 2.0 Block Explorer](https://scan-v2.zksync.dev/)
 - [zkSync 2.0 Documentation](https://v2-docs.zksync.io/)
