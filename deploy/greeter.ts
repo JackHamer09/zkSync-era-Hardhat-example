@@ -1,7 +1,5 @@
-import { Wallet } from "zksync-web3";
-import { HardhatRuntimeEnvironment, SolcUserConfig } from "hardhat/types";
+import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { Deployer } from "@matterlabs/hardhat-zksync-deploy";
-import { utils } from "ethers";
 import getWallet from "../utils/getWallet";
 import displayVerificationInfo from "../utils/displayVerificationInfo";
 
