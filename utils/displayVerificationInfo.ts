@@ -4,7 +4,7 @@ import { ZkDeployConfig, ZkSyncArtifact } from "@matterlabs/hardhat-zksync-deplo
 import path from "path";
 
 export default function ({hre, contract, contractConstructorArguments, artifact}: {hre: HardhatRuntimeEnvironment, contract: Contract, contractConstructorArguments: any[], artifact: ZkSyncArtifact}) {
-  console.log(`\nVerify the contract: https://scan-v2.zksync.dev/contracts/verify?address=${contract.address}&network=${((hre.config as any).zkSyncDeploy as ZkDeployConfig).ethNetwork}`);
+  console.log(`\nVerify the contract: https://explorer.zksync.io/contracts/verify?address=${contract.address}&network=${((hre.config as any).zkSyncDeploy as ZkDeployConfig).ethNetwork}`);
   console.log(`Contract name: ${contract.address}`);
   console.log(`Solc Version: ${(hre.userConfig.solidity as SolcUserConfig).version}`);
   console.log(`Compiler Version: v${(hre.userConfig as any).zksolc.version}`);

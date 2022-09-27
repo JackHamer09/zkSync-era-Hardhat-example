@@ -1,5 +1,5 @@
 # zkSync 2.0 Hardhat Example
-This is a simple example of how to use zkSync 2.0 with [Hardhat](https://v2-docs.zksync.io/api/hardhat/getting-started.html). It will help you to deploy your first zkSync smart contracts and interact with them, and will help you to verify its source code on [zkSync 2.0 Block Explorer](https://scan-v2.zksync.dev/).
+This is a simple example of how to use zkSync 2.0 with [Hardhat](https://v2-docs.zksync.io/api/hardhat/getting-started.html). It will help you to deploy your first zkSync smart contracts and interact with them, and will help you to verify its source code on [zkSync 2.0 Block Explorer](https://explorer.zksync.io/).
 
 
 ## Setup
@@ -35,10 +35,10 @@ This is a simple example of how to use zkSync 2.0 with [Hardhat](https://v2-docs
 
 
 ### Verify the contract (optional)
-After the deployment, the link for the contract verification, contract address, constructor arguments and other information will be printed in the console. You can use this information to verify the contract on [zkSync 2.0 Block Explorer](https://scan-v2.zksync.dev/).
+After the deployment, the link for the contract verification, contract address, constructor arguments and other information will be printed in the console. You can use this information to verify the contract on [zkSync 2.0 Block Explorer](https://explorer.zksync.io/).
 
 
 ### Useful links
 - [zkSync 2.0 Hardhat Documentation](https://v2-docs.zksync.io/api/hardhat/getting-started.html)
-- [zkSync 2.0 Block Explorer](https://scan-v2.zksync.dev/)
+- [zkSync 2.0 Block Explorer](https://explorer.zksync.io/)
 - [zkSync 2.0 Documentation](https://v2-docs.zksync.io/)
