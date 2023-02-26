@@ -1,7 +1,6 @@
-import { HardhatRuntimeEnvironment, SolcUserConfig } from "hardhat/types";
-import { Contract, utils } from "ethers";
+import { HardhatRuntimeEnvironment } from "hardhat/types";
+import { Contract } from "ethers";
 import { ZkSyncArtifact } from "@matterlabs/hardhat-zksync-deploy/dist/types";
-import path from "path";
 
 export default async function ({hre, contract, contractConstructorArguments, artifact}: {hre: HardhatRuntimeEnvironment, contract: Contract, contractConstructorArguments: any[], artifact: ZkSyncArtifact}) {
   const contractFullName = `${artifact.sourceName}:${artifact.contractName}`;

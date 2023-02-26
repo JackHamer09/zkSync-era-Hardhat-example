@@ -7,9 +7,7 @@ import verify from "../utils/verify";
 const TOKEN = {
   name: "Your Token Name",
   symbol: "YourTokenSymbol",
-  decimals: 18,
-  cap: utils.parseEther("1000000000").toString(), // total tokens supply
-  initialBalance: utils.parseEther("10000").toString(), // balance you receive to the deployer account
+  capitalization: utils.parseEther("1000000000").toString(), // total tokens supply
 }
 
 export default async function (hre: HardhatRuntimeEnvironment) {
@@ -22,7 +20,7 @@ export default async function (hre: HardhatRuntimeEnvironment) {
   const artifact = await deployer.loadArtifact("ERC20Token");
 
   // Deploy this contract. The returned object will be of a `Contract` type, similarly to ones in `ethers`.
-  const contractConstructorArguments = [TOKEN.name, TOKEN.symbol, TOKEN.decimals, TOKEN.cap, TOKEN.initialBalance];
+  const contractConstructorArguments = [TOKEN.name, TOKEN.symbol, TOKEN.capitalization];
   console.log(`Deploying contract with arguments: ${JSON.stringify(contractConstructorArguments)}`);
   const deployedContract = await deployer.deploy(artifact, contractConstructorArguments);
 

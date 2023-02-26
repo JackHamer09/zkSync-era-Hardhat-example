@@ -12,6 +12,7 @@
     "@matterlabs/hardhat-zksync-deploy": "^0.6.2",
     "@matterlabs/hardhat-zksync-solc": "^0.3.14",
     "@matterlabs/hardhat-zksync-verify": "^0.1.2",
+    "@openzeppelin/contracts": "^4.8.1",
     "ethers": "^5.7.2",
     "hardhat": "^2.12.6",
     "ts-node": "^10.9.1",
