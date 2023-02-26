@@ -1,7 +1,7 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { Deployer } from "@matterlabs/hardhat-zksync-deploy";
 import getWallet from "../utils/getWallet";
-import displayVerificationInfo from "../utils/displayVerificationInfo";
+import verify from "../utils/verify";
 
 export default async function (hre: HardhatRuntimeEnvironment) {
   console.log(`Running deploy script for the Greeter contract`);
@@ -42,5 +42,5 @@ export default async function (hre: HardhatRuntimeEnvironment) {
     console.error(`Contract said something unexpected: ${newGreetingFromContract}`);
   }
 
-  displayVerificationInfo({hre, contract: deployedContract, contractConstructorArguments, artifact});
+  await verify({hre, contract: deployedContract, contractConstructorArguments, artifact});
 }

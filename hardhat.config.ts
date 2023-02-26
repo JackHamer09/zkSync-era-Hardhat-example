@@ -1,6 +1,7 @@
 require('dotenv').config({path:__dirname+'/.env'})
 require("@matterlabs/hardhat-zksync-deploy");
 require("@matterlabs/hardhat-zksync-solc");
+require("@matterlabs/hardhat-zksync-verify");
 
 module.exports = {
   zksolc: {

@@ -2,7 +2,7 @@ import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { Deployer } from "@matterlabs/hardhat-zksync-deploy";
 import { utils } from "ethers";
 import getWallet from "../utils/getWallet";
-import displayVerificationInfo from "../utils/displayVerificationInfo";
+import verify from "../utils/verify";
 
 const TOKEN = {
   name: "Your Token Name",
@@ -29,5 +29,5 @@ export default async function (hre: HardhatRuntimeEnvironment) {
   // Show the contract info.
   console.log(`Contract "${artifact.contractName}" was deployed to ${deployedContract.address}`);
 
-  displayVerificationInfo({hre, contract: deployedContract, contractConstructorArguments, artifact});
+  await verify({hre, contract: deployedContract, contractConstructorArguments, artifact});
 }
