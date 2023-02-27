@@ -11,9 +11,6 @@ export default async function (hre: HardhatRuntimeEnvironment) {
   // Create deployer object and load the artifact of the contract we want to deploy.
   const deployer = new Deployer(hre, wallet);
   const artifact = await deployer.loadArtifact("Greeter");
-  const contractFullName = `${artifact.sourceName}:${artifact.contractName}`;
-  console.log(`\nVerifying contract "${contractFullName}"...`);
-  return;
 
   // Deploy this contract. The returned object will be of a `Contract` type, similarly to ones in `ethers`.
   // `greeting` is an argument for contract constructor.
