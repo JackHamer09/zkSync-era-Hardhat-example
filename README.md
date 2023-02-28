@@ -1,5 +1,5 @@
-# zkSync 2.0 Hardhat Example
-This is a simple example of how to use zkSync 2.0 with [Hardhat](https://v2-docs.zksync.io/api/hardhat/getting-started.html). It will help you to deploy your first zkSync smart contracts and interact with them, and will help you to verify its source code on [zkSync 2.0 Block Explorer](https://explorer.zksync.io/).
+# zkSync Era Hardhat Example
+This is a simple example of how to use zkSync Era with [Hardhat](https://v2-docs.zksync.io/api/hardhat/getting-started.html). It will help you to deploy your first zkSync smart contracts, interact with them, and automatically verify its source code on [zkSync Era Block Explorer](https://explorer.zksync.io/).
 
 
 ## Setup
@@ -24,7 +24,7 @@ This is a simple example of how to use zkSync 2.0 with [Hardhat](https://v2-docs
     npm run deploy greeter.ts
     ```
 
-  - ERC20 Token - this contract will let you deploy your own custom token to zkSync 2.0.
+  - ERC20 Token - this is a multifile contract that will let you deploy your own custom token to zkSync 2.0.
     - Fill in the values for your token in `deploy/erc20.ts`
     - Deploy the contract
       ```bash
@@ -34,11 +34,7 @@ This is a simple example of how to use zkSync 2.0 with [Hardhat](https://v2-docs
 ---
 
 
-### Verify the contract (optional)
-After the deployment, the link for the contract verification, contract address, constructor arguments and other information will be printed in the console. You can use this information to verify the contract on [zkSync 2.0 Block Explorer](https://explorer.zksync.io/).
-
-
 ### Useful links
-- [zkSync 2.0 Hardhat Documentation](https://v2-docs.zksync.io/api/hardhat/getting-started.html)
-- [zkSync 2.0 Block Explorer](https://explorer.zksync.io/)
-- [zkSync 2.0 Documentation](https://v2-docs.zksync.io/)
+- [zkSync Era Hardhat Documentation](https://era.zksync.io/docs/api/hardhat/getting-started.html)
+- [zkSync Era Block Explorer](https://explorer.zksync.io/)
+- [zkSync Era Documentation](https://era.zksync.io/docs/)
